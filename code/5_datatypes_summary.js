@@ -33,3 +33,31 @@ const myFunction = function(){
 }
 
 console.log(typeof outsideTemp);
+
+//https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack  (Primitive), Heap (Non-Primitive)
+
+let myYoutubename = "nirajcomputerdotcom"
+
+let anothername = myYoutubename
+anothername = "computercode"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email: "niraj77070@gmail.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "niraj77070@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
